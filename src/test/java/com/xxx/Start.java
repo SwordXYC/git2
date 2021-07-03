@@ -8,6 +8,7 @@ import org.mortbay.jetty.webapp.WebAppContext;
 public class Start {
 
 	public static void main(String[] args) throws Exception {
+		System.out.println("分支操作");
 		Server server = new Server();
 		SocketConnector connector = new SocketConnector();
 		// Set some timeout options to make debugging easier.
